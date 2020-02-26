@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./tmp",
+      "declaration": false,
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "strictNullChecks": false,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "downlevelIteration": true
+    },
+  
+    "include": [
+      "src/**/*"
+    ]
+  }
