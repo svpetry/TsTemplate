@@ -1,3 +1,3 @@
 import { hello } from './hello-world';
 
-console.log( hello() );
+console.log(hello());
