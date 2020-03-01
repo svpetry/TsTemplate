@@ -7,3 +7,4 @@ Template for a simple web application using TypeScript.
 * Visual Studio Code
     * Live Server extension
     * Debugger for chrome
+    * ESLint

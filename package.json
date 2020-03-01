@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "start": "webpack --mode development --watch"
+    "start": "webpack --mode development --watch",
+    "lint": "eslint \"src/**/*.ts\""
   },
   "author": "",
   "license": "ISC",
@@ -13,11 +14,13 @@
     "@types/chai": "^4.2.9",
     "@types/mocha": "^7.0.1",
     "@types/webpack": "^4.41.6",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
     "awesome-typescript-loader": "^5.2.1",
     "chai": "^4.2.0",
+    "eslint": "^6.8.0",
     "mocha": "^7.1.0",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.2",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }
