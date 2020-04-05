@@ -1,21 +1,23 @@
 {
-    "compilerOptions": {
-      "target": "es2020",
-      "module": "commonjs",
-      "outDir": "./tmp",
-      "declaration": false,
-      "sourceMap": true,
-      "strict": true,
-      "noImplicitAny": true,
-      "removeComments": true,
-      "strictNullChecks": false,
-      "typeRoots": [
-        "node_modules/@types"
-      ],
-      "downlevelIteration": true
-    },
-  
-    "include": [
-      "src/**/*"
-    ]
-  }
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./tmp",
+    "declaration": false,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

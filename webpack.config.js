@@ -1,3 +1,4 @@
+let webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
@@ -5,8 +6,10 @@ module.exports = {
     './src/index.ts'
   ],
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist/js')
+    filename: 'js/bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    // library: "test",
+    // libraryTarget: "umd"
   },
   devtool: 'source-map',
   module: {
@@ -18,10 +21,8 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [
-      '.ts',
-      '.js'
-    ]
+    extensions: [".ts", ".tsx", ".js"],
+    modules: ["node_modules"]
   },
   plugins: [
     //new CheckerPlugin()
