@@ -1,7 +1,7 @@
 const ctx: Worker = self as any;
 
 ctx.onmessage = (ev): void => {
-    let message: string = ev.data;
+    const message: string = ev.data;
     
     console.log("in webworker");
 

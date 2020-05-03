@@ -1,7 +1,7 @@
 import MyWorker = require("worker-loader?name=js/[name].js!./worker");
 import { hello } from './hello-world';
 
-let worker = new MyWorker();
+const worker = new MyWorker();
 
 console.log(hello());
 
