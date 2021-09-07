@@ -1,5 +1,5 @@
 import MyWorker = require("worker-loader?name=js/[name].js!./worker");
-import { hello } from './hello-world';
+import { hello } from "./hello-world";
 
 const worker = new MyWorker();
 
